@@ -29,9 +29,9 @@ defmodule CliBoilerplate do
 
   # Help/usage instructions
   def do_something(:help) do
+    # Write usage instructions/help text here
     IO.puts """
     Usage:
-    Write your own usage instructions here.
     ./cli_boilerplate --variable [something]
 
     Options:
